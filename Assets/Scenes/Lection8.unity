@@ -2016,7 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126437667}
   m_Layer: 0
-  m_Name: House2
+  m_Name: House#2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
