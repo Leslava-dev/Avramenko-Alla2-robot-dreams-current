@@ -1,121 +1,309 @@
 fileFormatVersion: 2
 guid: 6919690c2b268ba479483eecada6ed04
-timeCreated: 1494682254
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: GLASS
-    100004: interior
-    100006: lamp_glass
-    100008: left_front_door
-    100010: left_front_glass
-    100012: left_front_wheel
-    100014: left_rear_door
-    100016: left_rear_glass
-    100018: left_rear_wheel
-    100020: rear_lamp_glass
-    100022: right_front_door
-    100024: right_front_glass
-    100026: right_front_wheel
-    100028: right_rear_door
-    100030: right_rear_glass
-    100032: right_rear_wheel
-    100034: steering_wheel
-    400000: //RootNode
-    400002: GLASS
-    400004: interior
-    400006: lamp_glass
-    400008: left_front_door
-    400010: left_front_glass
-    400012: left_front_wheel
-    400014: left_rear_door
-    400016: left_rear_glass
-    400018: left_rear_wheel
-    400020: rear_lamp_glass
-    400022: right_front_door
-    400024: right_front_glass
-    400026: right_front_wheel
-    400028: right_rear_door
-    400030: right_rear_glass
-    400032: right_rear_wheel
-    400034: steering_wheel
-    2300000: //RootNode
-    2300002: GLASS
-    2300004: interior
-    2300006: lamp_glass
-    2300008: left_front_door
-    2300010: left_front_glass
-    2300012: left_front_wheel
-    2300014: left_rear_door
-    2300016: left_rear_glass
-    2300018: left_rear_wheel
-    2300020: rear_lamp_glass
-    2300022: right_front_door
-    2300024: right_front_glass
-    2300026: right_front_wheel
-    2300028: right_rear_door
-    2300030: right_rear_glass
-    2300032: right_rear_wheel
-    2300034: steering_wheel
-    3300000: //RootNode
-    3300002: GLASS
-    3300004: interior
-    3300006: lamp_glass
-    3300008: left_front_door
-    3300010: left_front_glass
-    3300012: left_front_wheel
-    3300014: left_rear_door
-    3300016: left_rear_glass
-    3300018: left_rear_wheel
-    3300020: rear_lamp_glass
-    3300022: right_front_door
-    3300024: right_front_glass
-    3300026: right_front_wheel
-    3300028: right_rear_door
-    3300030: right_rear_glass
-    3300032: right_rear_wheel
-    3300034: steering_wheel
-    4300000: BODY
-    4300002: GLASS
-    4300004: right_front_door
-    4300006: right_front_glass
-    4300008: right_rear_door
-    4300010: right_rear_glass
-    4300012: left_rear_door
-    4300014: left_rear_glass
-    4300016: left_front_door
-    4300018: left_front_glass
-    4300020: left_front_wheel
-    4300022: left_rear_wheel
-    4300024: right_rear_wheel
-    4300026: right_front_wheel
-    4300028: interior
-    4300030: steering_wheel
-    4300032: lamp_glass
-    4300034: rear_lamp_glass
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: GLASS
+  - first:
+      1: 100004
+    second: interior
+  - first:
+      1: 100006
+    second: lamp_glass
+  - first:
+      1: 100008
+    second: left_front_door
+  - first:
+      1: 100010
+    second: left_front_glass
+  - first:
+      1: 100012
+    second: left_front_wheel
+  - first:
+      1: 100014
+    second: left_rear_door
+  - first:
+      1: 100016
+    second: left_rear_glass
+  - first:
+      1: 100018
+    second: left_rear_wheel
+  - first:
+      1: 100020
+    second: rear_lamp_glass
+  - first:
+      1: 100022
+    second: right_front_door
+  - first:
+      1: 100024
+    second: right_front_glass
+  - first:
+      1: 100026
+    second: right_front_wheel
+  - first:
+      1: 100028
+    second: right_rear_door
+  - first:
+      1: 100030
+    second: right_rear_glass
+  - first:
+      1: 100032
+    second: right_rear_wheel
+  - first:
+      1: 100034
+    second: steering_wheel
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: GLASS
+  - first:
+      4: 400004
+    second: interior
+  - first:
+      4: 400006
+    second: lamp_glass
+  - first:
+      4: 400008
+    second: left_front_door
+  - first:
+      4: 400010
+    second: left_front_glass
+  - first:
+      4: 400012
+    second: left_front_wheel
+  - first:
+      4: 400014
+    second: left_rear_door
+  - first:
+      4: 400016
+    second: left_rear_glass
+  - first:
+      4: 400018
+    second: left_rear_wheel
+  - first:
+      4: 400020
+    second: rear_lamp_glass
+  - first:
+      4: 400022
+    second: right_front_door
+  - first:
+      4: 400024
+    second: right_front_glass
+  - first:
+      4: 400026
+    second: right_front_wheel
+  - first:
+      4: 400028
+    second: right_rear_door
+  - first:
+      4: 400030
+    second: right_rear_glass
+  - first:
+      4: 400032
+    second: right_rear_wheel
+  - first:
+      4: 400034
+    second: steering_wheel
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: GLASS
+  - first:
+      23: 2300004
+    second: interior
+  - first:
+      23: 2300006
+    second: lamp_glass
+  - first:
+      23: 2300008
+    second: left_front_door
+  - first:
+      23: 2300010
+    second: left_front_glass
+  - first:
+      23: 2300012
+    second: left_front_wheel
+  - first:
+      23: 2300014
+    second: left_rear_door
+  - first:
+      23: 2300016
+    second: left_rear_glass
+  - first:
+      23: 2300018
+    second: left_rear_wheel
+  - first:
+      23: 2300020
+    second: rear_lamp_glass
+  - first:
+      23: 2300022
+    second: right_front_door
+  - first:
+      23: 2300024
+    second: right_front_glass
+  - first:
+      23: 2300026
+    second: right_front_wheel
+  - first:
+      23: 2300028
+    second: right_rear_door
+  - first:
+      23: 2300030
+    second: right_rear_glass
+  - first:
+      23: 2300032
+    second: right_rear_wheel
+  - first:
+      23: 2300034
+    second: steering_wheel
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: GLASS
+  - first:
+      33: 3300004
+    second: interior
+  - first:
+      33: 3300006
+    second: lamp_glass
+  - first:
+      33: 3300008
+    second: left_front_door
+  - first:
+      33: 3300010
+    second: left_front_glass
+  - first:
+      33: 3300012
+    second: left_front_wheel
+  - first:
+      33: 3300014
+    second: left_rear_door
+  - first:
+      33: 3300016
+    second: left_rear_glass
+  - first:
+      33: 3300018
+    second: left_rear_wheel
+  - first:
+      33: 3300020
+    second: rear_lamp_glass
+  - first:
+      33: 3300022
+    second: right_front_door
+  - first:
+      33: 3300024
+    second: right_front_glass
+  - first:
+      33: 3300026
+    second: right_front_wheel
+  - first:
+      33: 3300028
+    second: right_rear_door
+  - first:
+      33: 3300030
+    second: right_rear_glass
+  - first:
+      33: 3300032
+    second: right_rear_wheel
+  - first:
+      33: 3300034
+    second: steering_wheel
+  - first:
+      43: 4300000
+    second: BODY
+  - first:
+      43: 4300002
+    second: GLASS
+  - first:
+      43: 4300004
+    second: right_front_door
+  - first:
+      43: 4300006
+    second: right_front_glass
+  - first:
+      43: 4300008
+    second: right_rear_door
+  - first:
+      43: 4300010
+    second: right_rear_glass
+  - first:
+      43: 4300012
+    second: left_rear_door
+  - first:
+      43: 4300014
+    second: left_rear_glass
+  - first:
+      43: 4300016
+    second: left_front_door
+  - first:
+      43: 4300018
+    second: left_front_glass
+  - first:
+      43: 4300020
+    second: left_front_wheel
+  - first:
+      43: 4300022
+    second: left_rear_wheel
+  - first:
+      43: 4300024
+    second: right_rear_wheel
+  - first:
+      43: 4300026
+    second: right_front_wheel
+  - first:
+      43: 4300028
+    second: interior
+  - first:
+      43: 4300030
+    second: steering_wheel
+  - first:
+      43: 4300032
+    second: lamp_glass
+  - first:
+      43: 4300034
+    second: rear_lamp_glass
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -123,26 +311,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 4
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 24
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 1
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -152,14 +363,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -92,7 +92,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4224108781571974368}
-  - component: {fileID: 2689887093152023524}
   m_Layer: 0
   m_Name: EA_Arch_Wall03_Seam_01b_PRE
   m_TagString: Untagged
@@ -116,28 +115,6 @@ Transform:
   - {fileID: 2152222832421794845}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &2689887093152023524
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3590736845274938970}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6656934165449967538, guid: 6368c436c242cc74094d5097f181d550, type: 3}
 --- !u!1 &5235625061239252180
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +183,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 2
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -353,15 +330,15 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.4
+  - screenRelativeHeight: 0.075651176
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7248998480560994106}
-  - screenRelativeHeight: 0.2
+  - screenRelativeHeight: 0.022376135
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 4112246820328467507}
-  - screenRelativeHeight: 0.05
+  - screenRelativeHeight: 0.002673097
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7496240446042053231}
