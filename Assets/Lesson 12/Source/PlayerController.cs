@@ -55,7 +55,8 @@ private void Update()
     yaw += mouseX * sensitivity * Time.deltaTime;
     pitch -= mouseY * sensitivity * Time.deltaTime;
 
-    pitch = Mathf.Clamp(pitch, -40f, 80f);
+    pitch = Mathf.Clamp(pitch, -40f, 25f);
+    //pitch = Mathf.Clamp(pitch, -40f, 80f);
 
     transform.rotation = Quaternion.Euler(0f, yaw, 0f);
     cameraAnchor.localRotation = Quaternion.Euler(pitch, 0f, 0f);
