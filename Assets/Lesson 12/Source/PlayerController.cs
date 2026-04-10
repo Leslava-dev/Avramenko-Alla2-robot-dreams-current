@@ -62,6 +62,12 @@ private void Update()
     cameraAnchor.localRotation = Quaternion.Euler(pitch, 0f, 0f);
         }
 
+        /*private void FixedUpdate()
+        {
+        velocity = transform.right * input.x + transform.forward * input.y;
+        characterController.SimpleMove(velocity * speed);
+
+        }*/
         private void FixedUpdate()
         {
         velocity = transform.right * input.x + transform.forward * input.y;

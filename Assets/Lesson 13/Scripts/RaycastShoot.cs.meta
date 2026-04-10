@@ -3,7 +3,14 @@ guid: 01a55ce47f0725a4b84ce0a52671ea9d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - fpsCam: {instanceID: 0}
+  - gunEnd: {instanceID: 0}
+  - weapon: {instanceID: 0}
+  - laserLine: {instanceID: 0}
+  - gunAudio: {instanceID: 0}
+  - muzzleFlash: {instanceID: 0}
+  - hitEffectPrefab: {fileID: 8514395905579913353, guid: 8ae5e4a7b61ffcb4a9db03e710a17f7e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
